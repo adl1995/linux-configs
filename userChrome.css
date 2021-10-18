@@ -1,0 +1,19 @@
+/* PATH = /home/adeel/.mozilla/firefox/juk3qjw0.default/chrome */
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/* Hide Back Forward buttons */
+#back-button, #forward-button { display:none!important; }
+
+/* hide scroll buttons on tab bar */
+toolbarbutton#scrollbutton-up, toolbarbutton#scrollbutton-down {display:none !important;}
+
+/* Hide New Tab button */
+#tabs-newtab-button {
+     display:none !important;
+}
+
+/* Hide Tab Close buttons */
+.tabbrowser-tab .tab-close-button {
+  visibility: collapse !important;
+}
+
